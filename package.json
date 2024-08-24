@@ -1,0 +1,13 @@
+{
+  "name": "notes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:backend": "cd backend && npm i && npx tsc",
+    "build:frontend": "cd frontend && npm i && npm run build",
+    "run:backend": "cd backend && node ./dist/index.js"
+  },
+  "author": "satvik",
+  "license": "ISC"
+}
