@@ -1,6 +1,9 @@
 import app from './app';
 import { Request, Response } from 'express';
 import {getIPAddress} from "./helper/utils";
+import env from "dotenv"
+
+env.config();
 
 const PORT = Number(process.env.PORT) || 4000;
 
